@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+</head>
+<body>
+    <script>
+        const books = [
+            {
+                title: "The Great Gatsby",
+                author: "F. Scott Fitzgerald",
+                publicationYear: 1925,
+                genres: ["Fiction", "Classics"]
+            },
+            {
+                title: "To Kill a Mockingbird",
+                author: "Harper Lee",
+                publicationYear: 1960,
+                genres: ["Fiction", "Coming-of-Age"]
+            }
+        ];
+
+        // a
+        console.log(books[0].title); // The title of the first book
+
+        // b
+        console.log(books[1].author); // The author of the second book
+
+        // c
+        books.forEach(book => console.log(book.genres)); // The genres of all books
+    </script>
+</body>
+</html>
